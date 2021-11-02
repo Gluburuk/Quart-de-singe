@@ -34,7 +34,7 @@ app.get('/join/:id', (req,res) => {
 
 
 /**
- * Return a json of players of all rooms existing
+ * Get players of all rooms existing
  * @returns {JSON} Tokens of rooms and his players
  */
 app.get('/rooms', (req,res) => {
