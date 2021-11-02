@@ -101,7 +101,7 @@ curl -X GET http://localhost:8080/room/:id
 
 ### Local : 
 ```
-curl -X GET http://localhost:8080/room/:id
+curl -X DELETE http://localhost:8080/room/:id
 ```
 
 ### Response exemple :
